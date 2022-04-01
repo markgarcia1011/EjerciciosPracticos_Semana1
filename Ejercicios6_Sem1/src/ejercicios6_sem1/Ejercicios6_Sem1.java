@@ -8,7 +8,7 @@ importar  java.texto.DecimalFormat ;
 importar  java.texto.NumberFormat ;
 
     public  static  void  main ( String [] args ) {
-        Number formato =  new  DecimalFormat ( "#0.00" );
+        NumberFormat formato =  new  DecimalFormat ( "#0.00" );
          double promedio, ev1, ev2, ev3, ev4, ev5;
          
          ev1 =  8,0  *  0,25 ;
@@ -19,6 +19,6 @@ importar  java.texto.NumberFormat ;
          
          promedio = ev1 + ev2   + ev3 + ev4 + ev5;
          
-              System.out.println( " Su promedio final del ciclo es: "  + formato.format(promedio));
+              System.out.println( "  Promedio final del ciclo es: "  + formato.format(promedio));
     }
 }
